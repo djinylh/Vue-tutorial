@@ -5,11 +5,13 @@ import RearWheel from '@/components/RearWheel.vue';
 
 <template>
   <h1>Hello Vue!</h1>
-  <FrontWheel />
-  <RearWheel />
   <div class="car">
-    <FrontWheel></FrontWheel>
-    <RearWheel></RearWheel>
+    <FrontWheel />
+    <FrontWheel />
+  </div>
+  <div class="car">
+    <RearWheel />
+    <RearWheel />
   </div>
 </template>
 

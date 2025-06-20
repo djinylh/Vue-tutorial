@@ -2,10 +2,28 @@
 
 <template>
   <div>
-    <router-link to="/component"> component </router-link>
-    <router-link to="/mustache"> mustache template </router-link>
-    <router-view />
+    <div class="header">
+      <router-link class="view" to="/component"> 화면 전환 1 </router-link>
+
+      <router-link class="view" to="/mustache"> 화면 전환 2 </router-link>
+
+      <router-link class="view" to="/chapter3">chapter3</router-link>
+
+      <router-link class="view" to="/chapter4">chapter4</router-link>
+
+      <router-link class="view" to="/chapter5">chapter5</router-link>
+    </div>
+
+    <div class="router-view">
+      <router-view />
+    </div>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.header {
+  display: flex;
+  gap: 10px;
+  height: 50px;
+}
+</style>
