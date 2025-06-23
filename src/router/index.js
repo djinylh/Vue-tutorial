@@ -4,6 +4,7 @@ import Mustache from '@/views/Mustache.vue';
 import Chapter3 from '@/views/Chapter3.vue';
 import Chapter4 from '@/views/Chapter4.vue';
 import Chapter5 from '@/views/Chapter5.vue';
+import Chapter8 from '@/views/Chapter8.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,6 +28,10 @@ const router = createRouter({
     {
       path: '/chapter5',
       component: Chapter5,
+    },
+    {
+      path: '/chapter8',
+      component: Chapter8,
     },
   ],
 });

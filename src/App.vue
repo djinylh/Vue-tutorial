@@ -12,6 +12,8 @@
       <router-link class="view" to="/chapter4">chapter4</router-link>
 
       <router-link class="view" to="/chapter5">chapter5</router-link>
+
+      <router-link class="view" to="/chapter8">chapter8</router-link>
     </div>
 
     <div class="router-view">
